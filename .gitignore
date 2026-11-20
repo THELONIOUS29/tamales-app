@@ -1,0 +1,32 @@
+# Configuración y credenciales locales
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+**/supabase.local.json
+**/local.properties
+**/key.properties
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+# Dependencias y resultados generados
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+.dart_tool/
+.gradle/
+build/
+dist/
+target/
+bin/
+obj/
+.idea/
+.vs/
+*.log
+*.db
+*.sqlite*
