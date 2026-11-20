@@ -4,7 +4,7 @@ Aplicación Flutter para pedidos, entregas, cobros, gastos y sincronización con
 
 ## Sobre esta copia
 
-Instantánea preparada el 20 de noviembre de 2026 para organizar un portafolio profesional. Repositorio privado. No incluye el historial Git original.
+Instantánea preparada el 20 de noviembre de 2026 para organizar un portafolio profesional. Copia para portafolio. No incluye el historial Git original.
 
 Se omitieron configuraciones locales, credenciales, datos operativos, instalaciones y archivos generados. Los valores `CONFIGURAR_LOCALMENTE`, `CONFIGURAR_TOKEN_LOCALMENTE` y `CONFIGURAR_SECRETO_LOCALMENTE` deben reemplazarse mediante configuración local antes de ejecutar. En scripts SQL se omitieron bloques de datos `INSERT` y `COPY`; en notebooks se borraron salidas guardadas.
 
@@ -201,3 +201,8 @@ La app abre ahora en **Inicio**. La navegación inferior contiene Inicio, Ventas
 Los importes se atribuyen a la fecha de la venta, aunque el cobro o gasto se haya registrado otro día. Las ventas anteriores con entregas o cobros pendientes y las próximas ventas tienen acceso directo; los cobros permanecen dentro de cada venta. Si el día está vacío, se ofrece seleccionar la próxima fecha programada.
 
 El resumen usa una sola lectura transaccional de SQLite, incluyendo cambios locales y eliminaciones pendientes. No añade consultas de red periódicas ni un servicio nuevo. Se actualiza al guardar/sincronizar, actualizar manualmente o volver a la app; al cambiar de día conserva la opción Hoy si estaba seleccionada. Una fecha elegida manualmente permanece mientras se usa la app.
+
+
+## Publicación y configuración
+
+Código compartido para portafolio profesional. No incluye credenciales del negocio. Preparación de seguridad del 20 de noviembre de 2026; no equivale a una validación de producción.
